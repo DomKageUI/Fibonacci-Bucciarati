@@ -1,12 +1,12 @@
 // Fibo sequence using loops
 function fibonacciLoop(n) {
-    let fib = [0, 1];
+    let fibo = [0, 1];
     
     for (let i = 2; i <= n; i++) {
-        fib[i] = fib[i - 1] + fib[i - 2];
+        fibo[i] = fibo[i - 1] + fibo[i - 2];
     }
     
-    return fib[n];
+    return fibo[n];
 }
 
 // Fibo sequence using recursion
