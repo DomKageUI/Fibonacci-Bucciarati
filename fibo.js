@@ -18,7 +18,7 @@ function fibonacciRecursion(n) {
 }
 
 
-let n = 10;
+let n = 12;
 
 console.log(`Fibonacci (Loop) of ${n}:`, fibonacciLoop(n));
 console.log(`Fibonacci (Recursion) of ${n}:`, fibonacciRecursion(n));
